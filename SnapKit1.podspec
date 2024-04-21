@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SnapKit"
+  spec.name         = "SnapKit1"
   spec.version      = '2.0.1'
   spec.summary      = 'swift语言开发的轻量级下拉刷新框架，使用简单方便。'
   spec.license      = 'MIT'
