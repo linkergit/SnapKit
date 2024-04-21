@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapKit1"
-  spec.version      = '2.0.5'
+  spec.version      = '2.0.6'
   spec.summary      = 'swift语言开发的轻量级下拉刷新框架，使用简单方便。'
   spec.license      = 'MIT'
   spec.homepage     = 'https://github.com/SmartPear/SwiftRefresh'
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => "https://github.com/linkergit/SnapKit.git", :tag => spec.version}
   spec.vendored_frameworks  = "SnapKit.framework"
   spec.frameworks = 'UIKit',"Foundation"
-  spec.ios.deployment_target = '15.0'
+  spec.ios.deployment_target = '12.0'
   spec.swift_version = '5.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   #sepc.dependency 'UIKit'
