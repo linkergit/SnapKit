@@ -9,9 +9,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapKit1"
-  spec.version      = '3.0.6'
+  spec.version      = '3.0.7'
   spec.summary      = 'swift语言开发的轻量级下拉刷新框架，使用简单方便。'
   spec.license      = 'MIT'
+  spec.static_framework = true
+
   spec.homepage     = 'https://github.com/SmartPear/SwiftRefresh'
   spec.author       = {"王欣" => "=573385822@qq.com" }
   spec.platform     = :ios, '9.0'
